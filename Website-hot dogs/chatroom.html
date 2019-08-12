@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<title>פורום</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="howthepagelook.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Navbar -->
+<div class="w3-top">
+
+<style>
+.form{
+text-align: center;
+    box-align: center;
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  
+background-image: url(noa.jpg);
+    margin-bottom: 20px;
+    opacity: 0.9;
+position: relative;
+font-size: 19px;
+
+  height: auto;
+
+    
+  
+  }
+</style>
+        <div  style="color: red; background: green; text-align:right; font-size:17px" >
+       
+       <div class="button_box2" style="float:left">
+       <form class="form-wrapper-2 cf" >
+       <input type="text" placeholder="." >
+       <button type="submit">חיפוש</button>
+       </form>
+       </div>
+       
+       <a href="homepage.html"><img id="logo" src="pics/logo.jpg" alt="menu" style="width:200px; height:200px;text-align:right; float:right">
+       
+  <a href="sitter.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">!מצא לי שמרט-וואף</a>
+  <a href="form.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">הצטרפו אלינו</a>
+<a href="store.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">store</a>
+          
+       
+        </div>
+       </div>
+       <br>       <br>       <br>
+
+
+        <h1 id=time style= "font-size:50px"> 
+        </h1>
+        <script>
+function startTime() {
+    var d=new Date();
+    var h=d.getHours();
+    var m=d.getMinutes();
+    m = checkTime(m);
+    document.getElementById('time').innerHTML = "זה הזמן ליצור קשר : "+h+":"+m;
+}
+
+function checkTime(i) {
+    var j = i;
+    if (i < 10) {
+        j = "0" + i;
+    }
+    return j;
+}
+
+setInterval(function()
+ {
+    startTime();
+}, 500);
+        </script>
+
+<h2 style="font-size: 80px; text-align: center; ">
+chatroom
+</h2>
+
+<div style= "text-align: center"> 
+        <img src= "pics/chatroom.jpg"">
+</div>
+
+
+
+<br>
+ <div class="form">
+		<br>
+
+
+    כתוב כאן <input type="text" name="text" placeholder=""/>
+    <br>
+</form>
+<!-- Footer -->'
+<footer style="color:green; background: orange" >
+
+  	<h3 style="text-align:center; font-size:15px">&copy; זכויות יוצרים 308315944 | 308020940 | 207906884 | 316396118<h3>
+
+</footer>
+
+</body>
+
+
+
+</html>

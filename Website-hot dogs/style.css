@@ -1,0 +1,81 @@
+body{
+	direction:rtl;
+	font-family:gisha;
+}
+table{
+	table-layout: auto;
+	width: 100%;
+	margin:0px;
+}
+h1.title{
+	color: #1B2631;
+	font-size:50pt;
+}
+
+
+td.menutop{
+	text-align:center;
+	padding:25px;
+	background-color:#ff3300;
+}
+td.menubtm{
+	text-align:center;
+	padding:20px;
+	background-color:	#ff3333;
+	font-color:black;
+}
+td.menubtm:hover{
+	background-color:#ff6600;
+}
+td.right{
+	width:40%;
+}
+td.middle{
+	width:35%;
+}
+td.left{
+	width:25%;
+}
+td.item{
+	text-align:center;
+	border-style:solid;
+	border-width:5px;
+	border-color:green;
+}
+td.pic{
+	text-align:center;
+	border-style:solid;
+	border-width:5px;
+	border-color:#ff4000;
+}
+img.pic{
+	width:100%;
+}
+span.menu{
+	font-size:22px;
+	font-weight:bolder;
+}
+p.conclusion{
+	color: white;
+	font-size:10pt;
+	text-transform:uppercase;
+}
+
+.form{
+text-align: center;
+    box-align: center;
+    margin: auto;
+  width: 50%;
+  border: 3px red;
+  
+background-image: url(noa.jpg);
+    margin-bottom: 20px;
+    opacity: 0.9;
+position: relative;
+font-size: 19px;
+
+  height: auto;
+
+    
+  
+  }
